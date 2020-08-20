@@ -8,5 +8,6 @@ namespace HouseVR.Negocio
 {
     public class Class1
     {
+
     }
 }
