@@ -49,5 +49,11 @@
   <ItemGroup>
     <Folder Include="Interfaces\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HouseVR.Dominio\HouseVR.Dominio.csproj">
+      <Project>{0b17ecf0-ea67-42f9-b896-aa744b0e36a7}</Project>
+      <Name>HouseVR.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

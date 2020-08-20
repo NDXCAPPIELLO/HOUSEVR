@@ -48,5 +48,19 @@
   <ItemGroup>
     <Folder Include="Implementaciones\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HouseVR.Datos\HouseVR.Datos.csproj">
+      <Project>{fe4d0138-f811-4290-a3cc-6c2c8f672d02}</Project>
+      <Name>HouseVR.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HouseVR.Dominio\HouseVR.Dominio.csproj">
+      <Project>{0b17ecf0-ea67-42f9-b896-aa744b0e36a7}</Project>
+      <Name>HouseVR.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HouseVR.Infraestructura\HouseVR.Infraestructura.csproj">
+      <Project>{4584b443-0ca1-4786-a5f5-2cc9c517036e}</Project>
+      <Name>HouseVR.Infraestructura</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
